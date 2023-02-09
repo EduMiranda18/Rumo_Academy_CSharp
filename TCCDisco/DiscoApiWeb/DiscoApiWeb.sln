@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscoApiWeb", "DiscoApiWeb.csproj", "{5529B9C8-7DB2-44F2-B340-12FDC54BCB4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models.DiscoApi", "..\Models.DiscoApi\Models.DiscoApi.csproj", "{21E55C86-3579-4216-AE58-4E8C830CB19F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleRobo", "..\ConsoleRobo\ConsoleRobo.csproj", "{4A482A0A-9EB1-4805-957D-65D2623663EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoApi.Respositorios", "..\DiscoApi.Respositorios\DiscoApi.Respositorios.csproj", "{697A0716-9DEB-4028-AEB1-2CBC24D87C8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoApi.Service", "..\DiscoApi.Service\DiscoApi.Service.csproj", "{C52051FA-3DBF-4EA1-A94F-1E788DA45725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoApi.Ioc", "..\DiscoApi.Ioc\DiscoApi.Ioc.csproj", "{A28ED34E-0446-43F9-B1B4-7BC126438662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5529B9C8-7DB2-44F2-B340-12FDC54BCB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5529B9C8-7DB2-44F2-B340-12FDC54BCB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5529B9C8-7DB2-44F2-B340-12FDC54BCB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5529B9C8-7DB2-44F2-B340-12FDC54BCB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E55C86-3579-4216-AE58-4E8C830CB19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E55C86-3579-4216-AE58-4E8C830CB19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E55C86-3579-4216-AE58-4E8C830CB19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E55C86-3579-4216-AE58-4E8C830CB19F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A482A0A-9EB1-4805-957D-65D2623663EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A482A0A-9EB1-4805-957D-65D2623663EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A482A0A-9EB1-4805-957D-65D2623663EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A482A0A-9EB1-4805-957D-65D2623663EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697A0716-9DEB-4028-AEB1-2CBC24D87C8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697A0716-9DEB-4028-AEB1-2CBC24D87C8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697A0716-9DEB-4028-AEB1-2CBC24D87C8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697A0716-9DEB-4028-AEB1-2CBC24D87C8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52051FA-3DBF-4EA1-A94F-1E788DA45725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52051FA-3DBF-4EA1-A94F-1E788DA45725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52051FA-3DBF-4EA1-A94F-1E788DA45725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52051FA-3DBF-4EA1-A94F-1E788DA45725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A28ED34E-0446-43F9-B1B4-7BC126438662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A28ED34E-0446-43F9-B1B4-7BC126438662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A28ED34E-0446-43F9-B1B4-7BC126438662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A28ED34E-0446-43F9-B1B4-7BC126438662}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {100EF02B-B6B8-4D3B-9A7A-064E771544A1}
+	EndGlobalSection
+EndGlobal
